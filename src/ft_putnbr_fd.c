@@ -6,12 +6,11 @@
 /*   By: fbock <fbock@student.42heilbronn.de>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 12:55:29 by fbock             #+#    #+#             */
-/*   Updated: 2023/10/11 16:45:09 by fbock            ###   ########.fr       */
+/*   Updated: 2023/12/12 10:12:18 by fbock            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-// #include <limits.h>
 
 static size_t	get_size(long long integer)
 {

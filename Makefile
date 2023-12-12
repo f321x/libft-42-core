@@ -6,7 +6,7 @@
 #    By: ***REMOVED*** <***REMOVED***@student.***REMOVED***.de>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/12 10:22:25 by ***REMOVED***             #+#    #+#              #
-#    Updated: 2023/12/12 10:36:28 by ***REMOVED***            ###   ########.fr        #
+#    Updated: 2023/12/12 10:43:48 by ***REMOVED***            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ ft_strjoin.c ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strmapi.c ft_strncmp.c ft_
 ft_strtrim.c ft_substr.c ft_tolower.c ft_toupper.c ft_lstnew.c ft_lstadd_back.c ft_lstadd_front.c \
 ft_lstsize.c ft_lstlast.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c ft_printf.c ft_hex_printf.c \
 ft_printargument.c ft_ptr_printf.c ft_putunsigned.c ft_functions2_bonus.c ft_utils_bonus.c ft_putchar_fd_pf.c \
-ft_putstr_fd_pf.c
+ft_putstr_fd_pf.c ft_atoll.c
 
 OBJS	:= $(addprefix $(OBJDIR)/, $(notdir ${SRCS:.c=.o}))
 DOBJS   := $(addprefix $(OBJDIR)/, $(notdir ${SRCS:.c=.d.o}))
